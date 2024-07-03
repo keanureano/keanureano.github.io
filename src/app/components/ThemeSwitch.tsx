@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, FC } from "react";
+import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import { FiSun, FiMoon, FiLoader } from "react-icons/fi";
 

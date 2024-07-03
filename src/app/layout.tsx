@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.className} suppressHydrationWarning>
-      <body className="max-w-3xl p-8 mx-auto bg-neutral-200 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">
+      <body className="flex flex-col max-w-3xl min-h-screen p-8 mx-auto bg-neutral-200 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">
         <ThemeProvider attribute="class">
           <Header />
           {children}

@@ -5,15 +5,11 @@ export default function Header() {
   return (
     <header className="flex items-center justify-between mb-12">
       <Link className="text-4xl font-black" href="/">
-        KR
+        {"<KR>"}
       </Link>
       <nav className="flex items-end space-x-4 font-light">
-        <Link href="/">
-          Home
-        </Link>
-        <Link href="/about">
-          About
-        </Link>
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
         <ThemeSwitch />
       </nav>
     </header>

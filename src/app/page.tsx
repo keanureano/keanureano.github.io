@@ -6,7 +6,7 @@ export default async function Home() {
   const data: ResumeSchema = JSON.parse(file);
 
   return (
-    <main>
+    <main className="flex-grow">
       <h1>Hi there!</h1>
       <p>{data.basics?.summary}</p>
     </main>

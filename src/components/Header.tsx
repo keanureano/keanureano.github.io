@@ -3,7 +3,7 @@ import ThemeSwitch from "./ThemeSwitch";
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-between mb-12">
+    <header className="flex items-center justify-between mb-8">
       <Link className="text-4xl font-black" href="/">
         {"<KR>"}
       </Link>

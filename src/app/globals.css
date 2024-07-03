@@ -7,7 +7,7 @@
     @apply hover:underline;
   }
   h1 {
-    @apply text-3xl font-semibold mb-4;
+    @apply text-3xl font-medium mt-16 mb-6;
   }
   p {
     @apply font-light mb-2 whitespace-pre-line;

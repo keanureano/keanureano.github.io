@@ -10,6 +10,6 @@
     @apply text-3xl font-semibold mb-4;
   }
   p {
-    @apply font-light mb-2;
+    @apply font-light mb-2 whitespace-pre-line;
   }
 }

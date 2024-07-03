@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Kanit } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
-import ThemeSwitch from "./components/ThemeSwitch";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const inter = Kanit({
   weight: ["100", "200", "300", "400", "500", "600", "700"],
@@ -24,8 +25,9 @@ export default function RootLayout({
     <html lang="en" className={inter.className} suppressHydrationWarning>
       <body className="bg-neutral-100 dark:bg-neutral-800">
         <ThemeProvider attribute="class">
-          <ThemeSwitch />
+          <Navbar />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

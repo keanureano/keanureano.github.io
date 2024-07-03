@@ -1,0 +1,254 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Keanu Reaño",
+    "label": "Full-stack Web Developer | Python | React.js | Java | SQL | PHP",
+    "image": "",
+    "email": "reanokeanu@gmail.com",
+    "phone": "",
+    "url": "https://github.com/keanureano",
+    "summary": "Hi there! I'm Keanu Reaño, a Software Developer specializing in web development.\nI graduated Magna Cum Laude with a Bachelor's degree in Computer Science.\nMy role involves using Python, React.js, Java, SQL, and PHP to build robust applications.",
+    "location": {
+      "countryCode": "US",
+      "address": "Philippines"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "keanureano",
+        "url": "https://www.linkedin.com/in/keanureano/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Upwork",
+      "position": "Software Developer",
+      "startDate": "2023-09-30",
+      "endDate": "2024-05-31",
+      "highlights": [],
+      "summary": "Developed websites using React.js and PHP.\nCreated data scraping tools using Python Selenium.",
+      "url": "https://www.linkedin.com/company/4827017",
+      "location": null
+    },
+    {
+      "name": "Standard Insurance",
+      "position": "Web Developer",
+      "startDate": "2023-05-31",
+      "endDate": "2023-08-31",
+      "highlights": [],
+      "summary": "Developed backend with Java Spring Boot and PostgreSQL for authentication and authorization via REST API.\nImplemented JWT for managing authentication sessions and middleware routing in the frontend.",
+      "url": "https://www.linkedin.com/company/13272670",
+      "location": "Makati, National Capital Region, Philippines"
+    },
+    {
+      "name": "VideoHQ",
+      "position": "Software Developer",
+      "startDate": "2022-03-31",
+      "endDate": "2023-04-30",
+      "highlights": [],
+      "summary": "Developed tools using Python and AutoHotKey to automate video editing workflows and client acquisition.",
+      "url": "",
+      "location": null
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Batangas State University",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science - BS",
+      "startDate": "2020-08-31",
+      "endDate": "2024-08-31",
+      "score": "Magna Cum Laude",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "CS50x: Computer Science",
+      "issuer": "Harvard University",
+      "startDate": "2022-11-30",
+      "url": "https://certificates.cs50.io/1e74a15a-d277-47d4-8587-66cea59e0db6"
+    },
+    {
+      "name": "CS50W: Web Programming",
+      "issuer": "Harvard University",
+      "startDate": "2023-04-30",
+      "url": "https://cs50.harvard.edu/certificates/58cd25ad-5141-4c92-91b8-cdd9837caaac"
+    },
+    {
+      "name": "Fullstackopen: Full-stack Development",
+      "issuer": "University of Helsinki",
+      "startDate": "2023-08-31",
+      "url": "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/7a579f345b787d4587543b678d6bb524"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Quality Assurance",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Manual Testing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Systems",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Debugging Code",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Server Side",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Quality",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Selenium",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Spring Boot",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Manipulation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AutoHotKey",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Machine Learning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe Premiere Pro",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cascading Style Sheets (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Lua",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Models",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Structures",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Large Language Models (LLM)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Cleaning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Git Auto Commit",
+      "startDate": "2023-11-30",
+      "summary": "https://github.com/keanureano/git-auto-commit\n\nThis app automates Git commit message generation using AI by extracting diff data from code changes.",
+      "url": null,
+      "endDate": "2024-05-31"
+    },
+    {
+      "name": "Scrum Tracker",
+      "startDate": "2023-05-31",
+      "summary": "https://github.com/keanureano/scrum-fullstack/\n\nThis app securely handles scrum meetings and data for team leaders to store and access easily.",
+      "url": null,
+      "endDate": "2023-08-31"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}

@@ -21,7 +21,7 @@ export default function ThemeSwitch() {
   return (
     <ThemeIcon
       onClick={handleToggleTheme}
-      className={`cursor-pointer select-none size-4 ${additionalClass}`}
+      className={`cursor-pointer select-none size-7 hover:animate-pulse ${additionalClass}`}
     />
   );
 }

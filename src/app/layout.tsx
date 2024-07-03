@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { Kanit } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const inter = Kanit({
-  weight: ["100", "200", "300", "400", "500", "600", "700"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
 });
 
@@ -23,9 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.className} suppressHydrationWarning>
-      <body className="max-w-3xl p-8 mx-auto bg-neutral-100 dark:bg-neutral-800">
+      <body className="max-w-3xl p-8 mx-auto bg-neutral-200 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">
         <ThemeProvider attribute="class">
-          <Navbar />
+          <Header />
           {children}
           <Footer />
         </ThemeProvider>

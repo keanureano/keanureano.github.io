@@ -7,6 +7,9 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   darkMode: "class",
+  theme: {
+    extend: {},
+  },
   plugins: [],
 };
 export default config;

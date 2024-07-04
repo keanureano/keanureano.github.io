@@ -16,17 +16,17 @@ export default function Education({ resume }: { resume: ResumeSchema }) {
   return (
     <>
       <h1>Education</h1>
-      <div className="flex flex-col space-y-2">
-        <p className="font-medium">
-          <Link href={url}>
+      <Link href={url}>
+        <div className="flex flex-col space-y-2">
+          <p className="font-medium">
             {institution} {date?.startEnd}
-          </Link>
-        </p>
-        <p>
-          {studyType}, {area}
-        </p>
-        <p>{score}</p>
-      </div>
+          </p>
+          <p>
+            {studyType}, {area}
+          </p>
+          <p>{score}</p>
+        </div>
+      </Link>
       <hr />
     </>
   );

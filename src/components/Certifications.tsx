@@ -1,5 +1,4 @@
 import { ResumeSchema } from "@/types/resumeSchema";
-import formatDate from "@/utils/formatDate";
 import Link from "next/link";
 
 export default function Certifications({ resume }: { resume: ResumeSchema }) {
@@ -17,12 +16,16 @@ export default function Certifications({ resume }: { resume: ResumeSchema }) {
             return (
               <li key={name}>
                 <Link href={url}>
-                  {name} - {issuer}
+                  <p>
+                    <span className="font-medium">{name} - </span>
+                    {issuer}
+                  </p>
                 </Link>
               </li>
             );
           })}
       </ul>
+      <hr />
     </>
   );
 }

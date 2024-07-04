@@ -2,6 +2,7 @@ import Certifications from "@/components/Certifications";
 import Summary from "@/components/Summary";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
+import Projects from "@/components/Projects";
 import { ResumeSchema } from "@/types/resumeSchema";
 import { promises as fs } from "fs";
 
@@ -15,6 +16,7 @@ export default async function Home() {
       <Experience resume={resume} />
       <Education resume={resume} />
       <Certifications resume={resume} />
+      <Projects resume={resume} />
     </main>
   );
 }

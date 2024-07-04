@@ -40,7 +40,7 @@ const IntroductionText = (resume: ResumeSchema): JSX.Element[] | string => {
   return parts.map((part, index) => (
     <React.Fragment key={index}>
       {index > 0 && (
-        <Link href={url} className="font-medium text-lg">
+        <Link href={url} className="font-medium text-xl">
           {name}
         </Link>
       )}

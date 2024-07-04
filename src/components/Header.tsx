@@ -9,7 +9,6 @@ export default function Header() {
       </Link>
       <nav className="flex items-end space-x-4 font-normal">
         <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
         <ThemeSwitch />
       </nav>
     </header>

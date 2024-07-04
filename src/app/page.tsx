@@ -1,6 +1,7 @@
 import Certifications from "@/components/Certifications";
-import Introduction from "@/components/Introduction";
-import PastWork from "@/components/PastWork";
+import Summary from "@/components/Summary";
+import Experience from "@/components/Experience";
+import Education from "@/components/Education";
 import { ResumeSchema } from "@/types/resumeSchema";
 import { promises as fs } from "fs";
 
@@ -10,8 +11,9 @@ export default async function Home() {
 
   return (
     <main className="flex-grow">
-      <Introduction resume={resume} />
-      <PastWork resume={resume} />
+      <Summary resume={resume} />
+      <Experience resume={resume} />
+      <Education resume={resume} />
       <Certifications resume={resume} />
     </main>
   );

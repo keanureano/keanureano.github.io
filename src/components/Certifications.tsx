@@ -1,8 +1,8 @@
 import { ResumeSchema } from "@/types/resumeSchema";
+import formatDate from "@/utils/formatDate";
 import Link from "next/link";
 
 export default function Certifications({ resume }: { resume: ResumeSchema }) {
-  const linkedinUrl = resume.basics?.profiles?.[0].url as string;
   return (
     <>
       <h1>Certifications</h1>
@@ -12,20 +12,17 @@ export default function Certifications({ resume }: { resume: ResumeSchema }) {
           .reverse()
           .map((certificate) => {
             const name = certificate.name as string;
+            const issuer = certificate.issuer as string;
             const url = certificate.url as string;
             return (
               <li key={name}>
-                <Link href={url}>{name}</Link>
+                <Link href={url}>
+                  {name} - {issuer}
+                </Link>
               </li>
             );
           })}
-        <li>
-          <Link href={linkedinUrl}>
-            <p className="opacity-75">View More</p>
-          </Link>
-        </li>
       </ul>
-      <hr />
     </>
   );
 }

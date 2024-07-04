@@ -3,23 +3,23 @@ import Link from "next/link";
 import React from "react";
 import { FaEnvelopeSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
-export default function Introduction({ resume }: { resume: ResumeSchema }) {
+export default function Summary({ resume }: { resume: ResumeSchema }) {
   const emailUrl = ("mailto:" + resume.basics?.email) as string;
   const linkedinUrl = resume.basics?.profiles?.[0].url as string;
   const githubUrl = resume.basics?.url as string;
   return (
     <>
       <h1 className="text-5xl">Hi there!</h1>
-      <p>{IntroductionText(resume)}</p>
+      <p className="text-lg">{IntroductionText(resume)}</p>
       <div className="pt-4 flex space-x-2">
         <Link href={emailUrl}>
-          <FaEnvelopeSquare />
+          <FaEnvelopeSquare size={24} />
         </Link>
         <Link href={linkedinUrl}>
-          <FaLinkedin />
+          <FaLinkedin size={24} />
         </Link>
         <Link href={githubUrl}>
-          <FaGithubSquare />
+          <FaGithubSquare size={24} />
         </Link>
       </div>
       <hr />

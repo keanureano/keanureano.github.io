@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
-import { FiSun, FiMoon, FiLoader } from "react-icons/fi";
+import { FaSun, FaMoon, FaSpinner } from "react-icons/fa";
 
 export default function ThemeSwitch() {
   const [mounted, setMounted] = useState(false);
@@ -12,16 +12,16 @@ export default function ThemeSwitch() {
     setMounted(true);
   }, []);
 
-  let ThemeIcon = FiLoader;
+  let ThemeIcon = FaSpinner;
   let additionalClass = "";
   if (!mounted) additionalClass = "animate-spin";
-  else ThemeIcon = theme === "dark" ? FiMoon : FiSun;
+  else ThemeIcon = theme === "dark" ? FaMoon : FaSun;
   const handleToggleTheme = () => setTheme(theme === "dark" ? "light" : "dark");
 
   return (
     <ThemeIcon
       onClick={handleToggleTheme}
-      className={`cursor-pointer select-none size-7 hover:animate-pulse ${additionalClass}`}
+      className={`cursor-pointer select-none size-6 ${additionalClass}`}
     />
   );
 }

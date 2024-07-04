@@ -1,3 +1,4 @@
+import Certifications from "@/components/Certifications";
 import Introduction from "@/components/Introduction";
 import PastWork from "@/components/PastWork";
 import { ResumeSchema } from "@/types/resumeSchema";
@@ -11,6 +12,7 @@ export default async function Home() {
     <main className="flex-grow">
       <Introduction resume={resume} />
       <PastWork resume={resume} />
+      <Certifications resume={resume} />
     </main>
   );
 }

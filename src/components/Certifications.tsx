@@ -16,10 +16,8 @@ export default function Certifications({ resume }: { resume: ResumeSchema }) {
             return (
               <li key={name}>
                 <Link href={url}>
-                  <p>
-                    <span className="font-medium">{name} - </span>
-                    {issuer}
-                  </p>
+                  <p className="font-medium">{name}</p>
+                  <p>{issuer}</p>
                 </Link>
               </li>
             );

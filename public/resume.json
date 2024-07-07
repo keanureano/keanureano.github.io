@@ -24,10 +24,10 @@
     {
       "name": "Upwork",
       "position": "Software Developer",
-      "startDate": "2023-09-30",
-      "endDate": "2024-05-31",
+      "startDate": "2023-08-31",
+      "endDate": "2024-07-31",
       "highlights": [],
-      "summary": "Developed websites using React.js and PHP.\nCreated data scraping tools using Python Selenium.",
+      "summary": "Developed dynamic and responsive websites using React.js and PHP.\nUtilized Tailwind CSS and Bootstrap to create responsive and mobile-friendly interfaces.\nCreated data scraping and analysis tools with Python and Selenium.",
       "url": "https://www.linkedin.com/company/4827017",
       "location": null
     },
@@ -37,7 +37,7 @@
       "startDate": "2023-05-31",
       "endDate": "2023-08-31",
       "highlights": [],
-      "summary": "Developed backend with Java Spring Boot and PostgreSQL for authentication and authorization via REST API.\nImplemented JWT for managing authentication sessions and middleware routing in the frontend.",
+      "summary": "Developed REST API backend services using Java and PostgreSQL for authentication and authorization.\nImplemented JWT for secure session management and middleware routing in the frontend.\nContributed to the development of the frontend using Next.js, styling the application with Tailwind CSS.",
       "url": "https://www.linkedin.com/company/13272670",
       "location": "Makati, National Capital Region, Philippines"
     },
@@ -47,7 +47,7 @@
       "startDate": "2022-03-31",
       "endDate": "2023-04-30",
       "highlights": [],
-      "summary": "Developed tools using Python and AutoHotKey to automate video editing workflows and client acquisition.",
+      "summary": "Developed automation tools with Python and AutoHotKey to speed up video editing workflows.\nCreated API-based data scraping and analysis tools to facilitate client acquisition.",
       "url": "https://www.linkedin.com/company/103684200",
       "location": null
     }
@@ -235,14 +235,14 @@
     {
       "name": "Git Auto Commit",
       "startDate": "2023-11-30",
-      "summary": "https://github.com/keanureano/git-auto-commit\n\nThis app automates Git commit message generation using AI by extracting diff data from code changes.",
+      "summary": "https://github.com/keanureano/git-auto-commit\nThis app automates Git commit message generation using AI by extracting diff data from code changes.",
       "url": null,
       "endDate": "2024-05-31"
     },
     {
       "name": "Scrum Tracker",
       "startDate": "2023-05-31",
-      "summary": "https://github.com/keanureano/scrum-fullstack/\n\nThis app securely handles scrum meetings and data for team leaders to store and access easily.",
+      "summary": "https://github.com/keanureano/scrum-fullstack/\nThis app securely handles scrum meetings and data for team leaders to store and access easily.",
       "url": null,
       "endDate": "2023-08-31"
     }

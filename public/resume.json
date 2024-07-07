@@ -6,7 +6,7 @@
     "image": "",
     "email": "reanokeanu@gmail.com",
     "phone": "",
-    "url": "https://github.com/keanureano",
+    "url": "https://keanureano.github.io/",
     "summary": "I'm Keanu Reaño, a Software Developer specializing in web development.\nI graduated Magna Cum Laude with a Bachelor's degree in Computer Science.\nMy role involves using Python, React.js, Java, SQL, and PHP to build applications.",
     "location": {
       "countryCode": "US",
@@ -27,17 +27,17 @@
       "startDate": "2023-08-31",
       "endDate": "2024-07-31",
       "highlights": [],
-      "summary": "Developed dynamic and responsive websites using React.js and PHP.\nUtilized Tailwind CSS and Bootstrap to create responsive and mobile-friendly interfaces.\nCreated data scraping and analysis tools with Python and Selenium.",
+      "summary": "Developed dynamic and responsive websites using React.js, Django, and PHP.\nUtilized Tailwind CSS and Bootstrap to create responsive and mobile-friendly interfaces.\nCreated data scraping and analysis tools with Python and Selenium.",
       "url": "https://www.linkedin.com/company/4827017",
       "location": null
     },
     {
       "name": "Standard Insurance",
-      "position": "Web Developer",
+      "position": "Full Stack Developer",
       "startDate": "2023-05-31",
       "endDate": "2023-08-31",
       "highlights": [],
-      "summary": "Developed REST API backend services using Java and PostgreSQL for authentication and authorization.\nImplemented JWT for secure session management and middleware routing in the frontend.\nContributed to the development of the frontend using Next.js, styling the application with Tailwind CSS.",
+      "summary": "Developed REST API backend services using Java Spring Boot and PostgreSQL for authentication and authorization.\nContributed to the development of the frontend using Next.js, styling the application with Tailwind CSS.\nImplemented JWT for secure session management and middleware routing in the frontend.",
       "url": "https://www.linkedin.com/company/13272670",
       "location": "Makati, National Capital Region, Philippines"
     },
@@ -88,6 +88,11 @@
   "publications": [],
   "skills": [
     {
+      "name": "XML",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Quality Assurance",
       "level": "",
       "keywords": []
@@ -99,11 +104,6 @@
     },
     {
       "name": "Software Systems",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Debugging Code",
       "level": "",
       "keywords": []
     },
@@ -159,6 +159,11 @@
     },
     {
       "name": "AutoHotKey",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Debugging Code",
       "level": "",
       "keywords": []
     },
@@ -233,16 +238,23 @@
   "references": [],
   "projects": [
     {
+      "name": "Portfolio",
+      "startDate": "2024-06-30",
+      "summary": "https://keanureano.github.io/\nResponsive portfolio website using Next.js and Tailwind CSS, showcasing professional experience, skills, and projects.\nImplemented GitHub Actions for continuous integration and deployment (CI/CD), ensuring automatic building and deployment with each commit.",
+      "url": null,
+      "endDate": "2024-07-31"
+    },
+    {
       "name": "Git Auto Commit",
       "startDate": "2023-11-30",
-      "summary": "https://github.com/keanureano/git-auto-commit\nThis app automates Git commit message generation using AI by extracting diff data from code changes.",
+      "summary": "https://github.com/keanureano/git-auto-commit\nDeveloped Git Auto Commit, an application that automates Git commit message generation using AI. The application extracts differential data from code changes, leveraging machine learning techniques to create informative and concise commit messages automatically.",
       "url": null,
       "endDate": "2024-05-31"
     },
     {
       "name": "Scrum Tracker",
       "startDate": "2023-05-31",
-      "summary": "https://github.com/keanureano/scrum-fullstack/\nThis app securely handles scrum meetings and data for team leaders to store and access easily.",
+      "summary": "https://github.com/keanureano/scrum-fullstack/\nScrum Tracker is a web application designed to securely manage scrum meetings and data for team leaders, ensuring easy storage and access. The application facilitates streamlined scrum processes, enhancing team collaboration and productivity.",
       "url": null,
       "endDate": "2023-08-31"
     }

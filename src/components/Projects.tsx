@@ -11,7 +11,7 @@ export default function Projects({ resume }: { resume: ResumeSchema }) {
           const name = project.name;
           const url = project.summary?.match(/https?:\/\/[^\s]+/)?.[0] ?? "#";
           const description = project.summary?.substring(
-            project.summary?.indexOf("\n\n") + 2
+            project.summary?.indexOf("\n") + 1
           );
           return (
             <li key={name}>

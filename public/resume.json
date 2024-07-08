@@ -7,7 +7,7 @@
     "email": "reanokeanu@gmail.com",
     "phone": "",
     "url": "https://keanureano.github.io/",
-    "summary": "I'm Keanu Reaño, a Software Developer specializing in web development.\nI graduated Magna Cum Laude with a Bachelor's degree in Computer Science.\nMy role involves using Python, React.js, Java, SQL, and PHP to build applications.",
+    "summary": "I'm Keanu Reaño, a web developer with 2 years of experience in Python, React.js, Java, SQL, PHP.\nI am passionate about building software that solves problems and enhances user experiences.",
     "location": {
       "countryCode": "US",
       "address": "Philippines"
@@ -88,6 +88,16 @@
   "publications": [],
   "skills": [
     {
+      "name": "English",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Communication",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "XML",
       "level": "",
       "keywords": []
@@ -98,17 +108,12 @@
       "keywords": []
     },
     {
-      "name": "Manual Testing",
+      "name": "Server Side",
       "level": "",
       "keywords": []
     },
     {
       "name": "Software Systems",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Server Side",
       "level": "",
       "keywords": []
     },
@@ -179,6 +184,11 @@
     },
     {
       "name": "Cascading Style Sheets (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Manual Testing",
       "level": "",
       "keywords": []
     },

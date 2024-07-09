@@ -11,12 +11,12 @@ export default async function Home() {
   const resume: ResumeSchema = JSON.parse(file);
 
   return (
-    <main className="flex-grow">
+    <>
       <Summary resume={resume} />
       <Experience resume={resume} />
       <Education resume={resume} />
       <Certifications resume={resume} />
       <Projects resume={resume} />
-    </main>
+    </>
   );
 }

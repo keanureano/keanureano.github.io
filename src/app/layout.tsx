@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className="flex flex-col max-w-3xl min-h-screen p-8 mx-auto bg-neutral-200 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">
         <ThemeProvider attribute="class">
           <Header />
-          {children}
+          <main className="flex-grow">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>

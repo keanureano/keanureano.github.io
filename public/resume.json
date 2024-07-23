@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Keanu Reaño",
-    "label": "Full-stack Web Developer | Python | React.js | Java | SQL | PHP",
+    "label": "Full-stack Web Developer",
     "image": "",
     "email": "reanokeanu@gmail.com",
     "phone": "",
     "url": "https://github.com/keanureano",
-    "summary": "I'm Keanu Reaño, a web developer with 2 years of experience in Python, React.js, Java, SQL, and PHP. I specialize in creating responsive websites, developing RESTful APIs, and building data scraping tools. My work is driven by a passion for solving problems and improving user experiences.\n\nI hold a Bachelor's degree in Computer Science from Batangas State University, graduating magna cum laude. My professional experience includes freelance web development on Upwork, an internship at Standard Insurance, and part-time work at VideoHQ. I have also completed certifications in Full Stack Development and Web Programming from the University of Helsinki and Harvard University.",
+    "summary": "I'm Keanu Reaño, a web developer with 2 years of experience in Python, JavaScript, React.js, Java, and SQL. I specialize in creating responsive websites, developing RESTful APIs, and building data scraping tools. My work is driven by a passion for solving problems and improving user experiences.\n\nI hold a Bachelor's degree in Computer Science from Batangas State University, graduating magna cum laude. My professional experience includes freelance web development on Upwork, an internship at Standard Insurance, and part-time work at VideoHQ. I have also completed certifications in Full Stack Development and Web Programming from the University of Helsinki and Harvard University.",
     "location": {
       "countryCode": "US",
       "address": "Philippines"
@@ -23,13 +23,13 @@
   "work": [
     {
       "name": "Upwork",
-      "position": "Software Developer",
+      "position": "Web Developer",
       "startDate": "2023-08-31",
       "endDate": "2024-07-31",
       "highlights": [],
-      "summary": "Developed responsive websites using React.js, Django, PHP, and Node.js, achieving high client satisfaction and repeat business.\nBuilt data scraping and analysis tools with Python and Selenium to help clients on decision-making processes.",
+      "summary": "Developed responsive websites using JavaScript, React.js, TailwindCSS, Django, Node.js, achieving high client satisfaction.\nBuilt data scraping and analysis tools with Python and Selenium to help clients on decision-making processes.",
       "url": "https://www.linkedin.com/company/4827017",
-      "location": null
+      "location": "Philippines"
     },
     {
       "name": "Standard Insurance",
@@ -37,7 +37,7 @@
       "startDate": "2023-05-31",
       "endDate": "2023-08-31",
       "highlights": [],
-      "summary": "Developed RESTful API backend services using Java Spring Boot, and PostgreSQL to facilitate Scrum meeting tracking within the organization.\nDesigned and implemented frontend components based on UI design files using Next.js, Tailwind CSS, and Bootstrap.\nIntegrated session management and implemented JWT to improve authentication and authorization during API calls.",
+      "summary": "Developed RESTful API backend services with Java Spring Boot and PostgreSQL for Scrum meeting tracking.\nDesigned and implemented frontend components based on UI design files using Next.js, TailwindCSS, and Bootstrap.\nIntegrated session management and implemented JWT to improve authentication and authorization during API calls.",
       "url": "https://www.linkedin.com/company/13272670",
       "location": "Makati, National Capital Region, Philippines"
     },
@@ -47,9 +47,9 @@
       "startDate": "2022-03-31",
       "endDate": "2023-04-30",
       "highlights": [],
-      "summary": "Developed automation tools with Python and AutoHotKey to speed up video editing workflows.\nCreated API-based data scraping and analysis tools to facilitate client acquisition.",
+      "summary": "Developed automation tools with Python and AutoHotKey to speed up video editing workflows.\nCreated API-based data scraping and analysis tools using JavaScript, React.js, Node.js, to facilitate client acquisition.",
       "url": "https://www.linkedin.com/company/103684200",
-      "location": null
+      "location": "Philippines"
     }
   ],
   "volunteer": [],
@@ -88,22 +88,22 @@
   "publications": [],
   "skills": [
     {
-      "name": "English",
+      "name": "Python (Programming Language)",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Communication",
+      "name": "React.js",
       "level": "",
       "keywords": []
     },
     {
-      "name": "XML",
+      "name": "Java",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Quality Assurance",
+      "name": "SQL",
       "level": "",
       "keywords": []
     },
@@ -118,17 +118,12 @@
       "keywords": []
     },
     {
-      "name": "Java",
+      "name": "English",
       "level": "",
       "keywords": []
     },
     {
       "name": "Data Quality",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "SQL",
       "level": "",
       "keywords": []
     },
@@ -148,7 +143,7 @@
       "keywords": []
     },
     {
-      "name": "React.js",
+      "name": "Communication",
       "level": "",
       "keywords": []
     },
@@ -168,7 +163,17 @@
       "keywords": []
     },
     {
+      "name": "XML",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Debugging Code",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Quality Assurance",
       "level": "",
       "keywords": []
     },
@@ -199,11 +204,6 @@
     },
     {
       "name": "Data Models",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Python (Programming Language)",
       "level": "",
       "keywords": []
     },
@@ -248,23 +248,23 @@
   "references": [],
   "projects": [
     {
-      "name": "Portfolio",
+      "name": "Portfolio Website",
       "startDate": "2024-06-30",
-      "summary": "https://keanureano.github.io/\nResponsive portfolio website using Next.js and Tailwind CSS, showcasing professional experience, skills, and projects.\nImplemented GitHub Actions for continuous integration and deployment (CI/CD), ensuring automatic building and deployment with each commit.",
+      "summary": "Developed a responsive portfolio website using Next.js and Tailwind CSS, showcasing professional experience, skills, and projects.\nImplemented GitHub Actions for continuous integration and deployment, ensuring automatic building and deployment with each commit.",
       "url": null,
       "endDate": "2024-07-31"
     },
     {
       "name": "Git Auto Commit",
       "startDate": "2023-11-30",
-      "summary": "https://github.com/keanureano/git-auto-commit\nDeveloped Git Auto Commit, an application that automates Git commit message generation using AI. The application extracts differential data from code changes, leveraging machine learning techniques to create informative and concise commit messages automatically.",
+      "summary": "Developed an AI-based application that analyzes code changes to automatically create commit messages.\nAwarded \"Best in Thesis\" for innovation and practical application.",
       "url": null,
       "endDate": "2024-05-31"
     },
     {
       "name": "Scrum Tracker",
       "startDate": "2023-05-31",
-      "summary": "https://github.com/keanureano/scrum-fullstack/\nScrum Tracker is a web application designed to securely manage scrum meetings and data for team leaders, ensuring easy storage and access. The application facilitates streamlined scrum processes, enhancing team collaboration and productivity.",
+      "summary": "Developed a full stack Scrum Tracker using Spring Boot and Next.js for managing and tracking Scrum tasks and issues.\nImproved productivity and collaboration within the development team.",
       "url": null,
       "endDate": "2023-08-31"
     }

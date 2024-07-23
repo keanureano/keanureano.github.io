@@ -10,6 +10,9 @@ export default function Header() {
       <nav className="flex items-end space-x-4 font-normal">
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
+        <Link href="/resume.pdf" passHref>
+          <a target="_blank" rel="noopener noreferrer">Resume</a>
+        </Link>
         <ThemeSwitch />
       </nav>
     </header>

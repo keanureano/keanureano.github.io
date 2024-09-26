@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Keanu Reaño",
-    "label": "Full-stack Web Developer",
+    "label": "Full Stack Developer",
     "image": "",
     "email": "reanokeanu@gmail.com",
     "phone": "",
     "url": "https://github.com/keanureano",
-    "summary": "I'm Keanu Reaño, a web developer with 2 years of experience in Python, JavaScript, React.js, Java, and SQL. I specialize in creating responsive websites, developing RESTful APIs, and building data scraping tools. My work is driven by a passion for solving problems and improving user experiences.\n\nI hold a Bachelor's degree in Computer Science from Batangas State University, graduating magna cum laude. My professional experience includes freelance web development on Upwork, an internship at Standard Insurance, and part-time work at VideoHQ. I have also completed certifications in Full Stack Development and Web Programming from the University of Helsinki and Harvard University.",
+    "summary": "I'm Keanu Reaño, a Full Stack Developer specializing in javaScript (Next.js, React.js, Node.js) and Python (Django, FastAPI, Selenium) development. I specialize in creating responsive websites, developing RESTful APIs, and building data scraping tools. My focus is on solving problems and enhancing user experiences.",
     "location": {
       "countryCode": "US",
       "address": "Philippines"
@@ -22,12 +22,22 @@
   },
   "work": [
     {
+      "name": "Quantashift Software Development Services",
+      "position": "Full Stack Developer",
+      "startDate": "2024-07-31",
+      "endDate": "",
+      "highlights": [],
+      "summary": "● Developed web applications and backend systems using Next.js and Python and delivered efficient solutions.\n● Implemented features based on project requirements and actively contributed new ideas for improvements.",
+      "url": "https://www.linkedin.com/company/103727116",
+      "location": "Quezon City, National Capital Region, Philippines"
+    },
+    {
       "name": "Upwork",
-      "position": "Web Developer",
+      "position": "Full Stack Developer",
       "startDate": "2023-08-31",
       "endDate": "2024-07-31",
       "highlights": [],
-      "summary": "Developed responsive websites using JavaScript, React.js, TailwindCSS, Django, Node.js, achieving high client satisfaction.\nBuilt data scraping and analysis tools with Python and Selenium to help clients on decision-making processes.",
+      "summary": "● Developed responsive websites using Next.js and Tailwind CSS, achieving consistently high client satisfaction.\n● Built RESTful APIs using Node.js and Python, successfully meeting client project requirements.\n● Created web scraping and analytics software with Python Selenium to help clients on decision-making processes.",
       "url": "https://www.linkedin.com/company/4827017",
       "location": "Philippines"
     },
@@ -37,19 +47,9 @@
       "startDate": "2023-05-31",
       "endDate": "2023-08-31",
       "highlights": [],
-      "summary": "Developed RESTful API backend services with Java Spring Boot and PostgreSQL for Scrum meeting tracking.\nDesigned and implemented frontend components based on UI design files using Next.js, TailwindCSS, and Bootstrap.\nIntegrated session management and implemented JWT to improve authentication and authorization during API calls.",
+      "summary": "● Developed RESTful API backend services with Java Spring Boot and PostgreSQL for Scrum meeting tracking.\n● Coded frontend components based on UI design files using Next.js and Tailwind CSS.\n● Integrated session management and implemented JWT to improve authentication and authorization during API calls.",
       "url": "https://www.linkedin.com/company/13272670",
       "location": "Makati, National Capital Region, Philippines"
-    },
-    {
-      "name": "VideoHQ",
-      "position": "Software Developer",
-      "startDate": "2022-03-31",
-      "endDate": "2023-04-30",
-      "highlights": [],
-      "summary": "Developed automation tools with Python and AutoHotKey to speed up video editing workflows.\nCreated API-based data scraping and analysis tools using JavaScript, React.js, Node.js, to facilitate client acquisition.",
-      "url": "https://www.linkedin.com/company/103684200",
-      "location": "Philippines"
     }
   ],
   "volunteer": [],
@@ -88,6 +88,11 @@
   "publications": [],
   "skills": [
     {
+      "name": "Next.js",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Python (Programming Language)",
       "level": "",
       "keywords": []
@@ -99,11 +104,6 @@
     },
     {
       "name": "Java",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "SQL",
       "level": "",
       "keywords": []
     },
@@ -124,6 +124,11 @@
     },
     {
       "name": "Data Quality",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
       "level": "",
       "keywords": []
     },
@@ -250,23 +255,16 @@
     {
       "name": "Portfolio Website",
       "startDate": "2024-06-30",
-      "summary": "Developed a responsive portfolio website using Next.js and Tailwind CSS, showcasing professional experience, skills, and projects.\nImplemented GitHub Actions for continuous integration and deployment, ensuring automatic building and deployment with each commit.",
+      "summary": "● Made a portfolio website using Next.js and Tailwind CSS, showcasing professional experience, skills, and projects.\n● Implemented GitHub Actions for CI/CD, ensuring automatic building and deployment with each push in the main branch.",
       "url": null,
       "endDate": "2024-07-31"
     },
     {
       "name": "Git Auto Commit",
       "startDate": "2023-11-30",
-      "summary": "Developed an AI-based application that analyzes code changes to automatically create commit messages.\nAwarded \"Best in Thesis\" for innovation and practical application.",
+      "summary": "● Created an AI-based application that analyzes code changes to automatically create commit messages.\n● Awarded Best in Thesis for outstanding innovation and practical real-world application.",
       "url": null,
       "endDate": "2024-05-31"
-    },
-    {
-      "name": "Scrum Tracker",
-      "startDate": "2023-05-31",
-      "summary": "Developed a full stack Scrum Tracker using Spring Boot and Next.js for managing and tracking Scrum tasks and issues.\nImproved productivity and collaboration within the development team.",
-      "url": null,
-      "endDate": "2023-08-31"
     }
   ],
   "meta": {

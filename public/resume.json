@@ -7,7 +7,7 @@
     "email": "reanokeanu@gmail.com",
     "phone": "",
     "url": "https://github.com/keanureano",
-    "summary": "I'm Keanu Reaño, a Full Stack Developer specializing in javaScript (Next.js, React.js, Node.js) and Python (Django, FastAPI, Selenium) development. I specialize in creating responsive websites, developing RESTful APIs, and building data scraping tools. My focus is on solving problems and enhancing user experiences.",
+    "summary": "I’m a full stack developer with experience building web applications using NextJS, Express, and TailwindCSS. I work on both frontend and backend tasks, creating solutions that are efficient and easy to maintain.\n\nI’ve handled projects ranging from freelance work to full time roles, always focusing on delivering high-quality results. I enjoy solving technical challenges, automating workflows, and improving user experience.",
     "location": {
       "countryCode": "US",
       "address": "Philippines"
@@ -25,9 +25,9 @@
       "name": "Quantashift Software Development Services",
       "position": "Full Stack Developer",
       "startDate": "2024-07-31",
-      "endDate": "2024-10-26",
+      "endDate": "",
       "highlights": [],
-      "summary": "● Developed web applications and backend systems using Next.js and Python and delivered efficient solutions.\n● Implemented features based on project requirements and actively contributed new ideas for improvements.",
+      "summary": "● Built a full stack web app to help clients gain insights into content performance and audience engagement\n● Developed the frontend using Next.js and TailwindCSS, ensuring a responsive and modern user experience.\n● Implemented an Express.js backend with Firebase authentication and multiple API endpoints for data handling.\n● Integrated ChatGPT API to deliver real-time chatbot functionality for interactive user support.\n● Managed data storage with SQL, ensuring efficient and scalable handling of user data and analytics.\n● Utilized Puppeteer for live data scraping, providing clients with insights into content interactions and engagement metrics.",
       "url": "https://www.linkedin.com/company/103727116",
       "location": "Quezon City, National Capital Region, Philippines"
     },
@@ -43,13 +43,23 @@
     },
     {
       "name": "Standard Insurance",
-      "position": "Full Stack Developer",
+      "position": "Web Developer",
       "startDate": "2023-05-31",
       "endDate": "2023-08-31",
       "highlights": [],
       "summary": "● Developed RESTful API backend services with Java Spring Boot and PostgreSQL for Scrum meeting tracking.\n● Coded frontend components based on UI design files using Next.js and Tailwind CSS.\n● Integrated session management and implemented JWT to improve authentication and authorization during API calls.",
       "url": "https://www.linkedin.com/company/13272670",
       "location": "Makati, National Capital Region, Philippines"
+    },
+    {
+      "name": "VideoHQ",
+      "position": "Software Developer",
+      "startDate": "2022-12-31",
+      "endDate": "2023-05-31",
+      "highlights": [],
+      "summary": "● Built simple React.js websites and landing pages for clients, including social media landing pages and link trees.\n● Developed Python automation tools to customize a secondary keyboard for faster video editing with macros.\n● Created API tools that scrape and summarize data from platforms like Upwork and Reddit for easier client acquisition.",
+      "url": "",
+      "location": null
     }
   ],
   "volunteer": [],
@@ -262,7 +272,7 @@
     {
       "name": "Git Auto Commit",
       "startDate": "2023-11-30",
-      "summary": "● Created an AI-based application that analyzes code changes to automatically create commit messages.\n● Awarded Best in Thesis for outstanding innovation and practical real-world application.",
+      "summary": "● Created an AI-based application that automatically creates Git commit messages based on code changes.\n● Awarded Best in Thesis for outstanding innovation and practical real-world application.",
       "url": null,
       "endDate": "2024-05-31"
     }
